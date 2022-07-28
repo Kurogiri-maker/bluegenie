@@ -1,35 +1,38 @@
-# Simple React JS Project
+# BlueGenie Project
 
 ## What is the use of this Repo
 
-This Project is a Simple ReactJS Project which demonstrates the following
-1. Creating a Component in React
-2. Making HTTP calls
-3. Communicating between parent and child component
-4. Using Bootstrap along with React
-5. Using Basic Routing in React
+This Project is a ReactJS Project which demonstrates the following
+
+1. Teaching kids Arduino basics
+2. Testing kids with quizs
+3. Sending data through serial port to Arduino board
 
 The project Template can be used to build bigger projects
 
 ## Live Application URL
 
-### https://aditya-sridhar.github.io/simple-reactjs-app
+###
+
 This URL has the application deployed in
 
 ## Prerequisites
 
 ### Install Node JS
+
 Refer to https://nodejs.org/en/ to install nodejs
 
 ### Install create-react-app
+
 Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
 
 ```bash
 npm install -g create-react-app
 ```
+
 ## Live Application URL
 
-The Application is deployed in https://aditya-sridhar.github.io/simple-reactjs-app
+The Application is deployed in
 
 Click on the link to see the application
 
@@ -55,9 +58,13 @@ The Application Runs on **localhost:3000**
 
 #### Components
 
-1. **Customers** Component : This Component displays a list of customers. This Component gets the data from a json file in assets folder
+1. **AccountBox** Component : This Component displays a login page.
 
-2. **CustomerDetails** Component : This Component Displays the details of the selected customer. This Component gets its data from a json file in assets folder as well. This Component is the Child Component of *Customers* Component
+2. **SubscribeBox** Component : This Component Displays a subscribe page.
+
+3. **Quizpage** Component : This Component Displays a quiz. This Component gets its data from a data base.
+
+4. **showScore** Component : This Component Displays the result . This Component gets its data fromthe component Quizpage.
 
 #### HTTP client
 
@@ -65,7 +72,7 @@ The Application Runs on **localhost:3000**
 
 #### URL
 
-The application has just one url /customerlist which ties to *Customers* Component
+The application has url /quiz which ties to Quizpage Component and url /showScore which ties to showScore Component.
 
 ## Resources
 
